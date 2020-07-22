@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical"
+    android:background="@android:color/transparent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@+id/fm"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        app:backgroundTint="@color/cardview_dark_background"
+        android:layout_width="match_parent"
+        />
+    <ImageView
+        android:id="@+id/accimage"
+        android:layout_gravity="center"
+        android:elevation="20dp"
+        android:layout_height="100dp"
+        android:layout_width="wrap_content"
+        android:src="@drawable/ic_baseline_account_circle_24"
+        android:tint="?android:attr/colorPrimary"/>
+</FrameLayout>
+    <TextView
+        android:layout_below="@id/fm"
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="?android:attr/colorAccent"
+        android:textAlignment="center"
+        android:textSize="17dp"/>
+</RelativeLayout>

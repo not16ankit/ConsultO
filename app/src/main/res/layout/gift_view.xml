@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Space android:layout_height="8dp"
+        android:layout_width="match_parent"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="70dp"
+        app:lottie_loop="true"
+        android:elevation="20dp"
+        app:lottie_fileName="gift.json"
+        app:lottie_autoPlay="true"
+        android:layout_height="70dp"/>
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="400dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/gift_back"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_centerInParent="true"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="?android:attr/colorAccent"
+                android:text="Refer your friends and earn free gifts"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    </FrameLayout>
+    <Space android:layout_height="12dp"
+        android:layout_width="match_parent"/>
+</LinearLayout>

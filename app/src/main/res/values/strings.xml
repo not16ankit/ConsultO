@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Great Minds</string>
+    <string name="tab_text_1">SignIn</string>
+    <string name="tab_text_2">SignUp</string>
+    <string name="warning">Please be very aware of the fact that the cost counter would start as soon OK is clicked. The money will be deducted automatically from your wallet after you finish with a conversation and the company holds no authority of refunds in case of a loss of credits by mistake or intentionally. Click <a href="">here</a> for pricing details.</string>
+    <string name="terms"><a href="https://www.google.com">Terms &amp; Conditions</a></string>
+    <string name="terms1">    By creating an account, you agree to our <a href="https://www.google.com">Terms &amp; Conditions</a></string>
+    <string name="title_activity_grids">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string-array name="icons">
+        <item>logintop</item>
+        <item>paytm</item>
+        <item>reciept</item>
+        <item>wallettop</item>
+    </string-array>
+    <string-array name="themes">
+        <item>Theme 1</item>
+        <item>Theme 2</item>
+        <item>Theme 3</item>
+    </string-array>
+    <string name="mid">UzobFV13180961946264</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="insta_id">686985615192824</string>
+    <string name="insta_secret">534dedaf303a033e357889090f1d5f8a</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_all_in">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_wanna_talk">wanna_talk</string>
+    <string name="title_activity_chats">chats</string>
+    <string name="title_activity_settings">settings</string>
+</resources>

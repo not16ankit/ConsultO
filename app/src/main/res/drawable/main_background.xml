@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:drawable="?android:attr/colorPrimaryDark"/>
+    <item android:right="700dp"
+        android:left="700dp"
+        android:top="800dp"
+        android:bottom="800dp">
+        <bitmap android:src="@drawable/ic_baseline_chat_24"
+            android:tint="?android:attr/colorPrimary"
+            android:gravity="center"/>
+    </item>
+</layer-list>

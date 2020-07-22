@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "737280196986",
+    "firebase_url": "https://consulto-ba56e.firebaseio.com",
+    "project_id": "consulto-ba56e",
+    "storage_bucket": "consulto-ba56e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737280196986:android:b697b6e9d3ae23813316c3",
+        "android_client_info": {
+          "package_name": "app.consulto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "737280196986-degpqegqc7jb37o8mqv1tus8ldors9a3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.consulto",
+            "certificate_hash": "5cbce2ef8986daa391d813608b0537c59c80d56b"
+          }
+        },
+        {
+          "client_id": "737280196986-ripfjsgsh062a051d09t92jch7f9qasu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCphg5Md1lnhxSBfcpb05i8F8GtqTwpqEg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "737280196986-ripfjsgsh062a051d09t92jch7f9qasu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

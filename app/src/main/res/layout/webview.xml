@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="600dp">
+    <WebView
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:id="@+id/web" />
+    <RelativeLayout
+    android:id="@+id/forhide"
+    android:layout_width="match_parent"
+        android:elevation="25dp"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"/>
+</FrameLayout>

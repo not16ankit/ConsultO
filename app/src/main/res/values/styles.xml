@@ -1,0 +1,75 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#5037E9</item>
+        <item name="colorPrimaryDark">#41025B</item>
+        <item name="color1">#ff69b4</item>
+        <item name="color2">#9400d3</item>
+        <item name="colorAccent">#FFFFFF</item>
+        <item name="extra">#4D0C67</item>
+        <item name="button">#FA8867</item>
+        <item name="android:windowBackground">@drawable/background</item>
+    </style>
+    <style name="bag" parent="Theme.Design.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/bottom</item>
+    </style>
+
+    <style name="bottom" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="rating" parent="Widget.AppCompat.RatingBar.Small">
+        <item name="colorControlNormal">#FFC922</item>
+        <item name="colorControlActivated">#FFC922</item>
+    </style>
+
+    <style name="dialog" parent="Theme.AppCompat.Dialog">
+        <item name="backgroundColor">@android:color/transparent</item>
+        <item name="background">@android:color/transparent</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="slert" parent="Theme.AppCompat.Dialog">
+        <item name="backgroundColor">@color/back</item>
+        <item name="android:background">@color/back</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:secondaryProgressTint">@color/green</item>
+        <item name="android:progressTint">@color/green</item>
+        <item name="background">@color/back</item>
+    </style>
+
+    <style name="custom" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBarBright">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">#FFFFFF</item>
+        <item name="colorAccent">#000000</item>
+        <item name="android:windowBackground">#FFFFFF</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+</resources>

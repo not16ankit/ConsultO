@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@android:color/transparent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <Space android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/sp"/>
+    <TextView
+        android:layout_below="@id/sp"
+        android:id="@+id/prefs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text="Select Preferences"/>
+    <Space android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/sp2"
+        android:layout_below="@id/prefs"/>
+    <GridView
+        android:visibility="invisible"
+        android:numColumns="2"
+        android:horizontalSpacing="6dp"
+        android:scrollbars="none"
+        android:verticalSpacing="6dp"
+        android:columnWidth="130dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:id="@+id/listview"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/sp2"
+        android:layout_height="match_parent"/>
+    </RelativeLayout>
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/pref_loading"
+        app:lottie_loop="true"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center_vertical"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="loading2.json"/>
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/card_back41"
+        android:duration="1000"/>
+    <item
+        android:duration="1000"
+        android:drawable="@drawable/card_back42"/>
+</animation-list>

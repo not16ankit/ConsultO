@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/transparent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+   <RelativeLayout
+       android:id="@+id/rel"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+      <TextView
+          android:id="@+id/color"
+          android:layout_width="6dp"
+          android:layout_height="26dp"
+          android:background="?android:attr/colorPrimary"/>
+      <Space android:layout_height="wrap_content"
+          android:id="@+id/spo"
+          android:layout_width="10dp"
+          android:layout_toRightOf="@id/color"/>
+      <TextView
+          android:layout_toRightOf="@id/spo"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textColor="?android:attr/colorAccent"
+          android:textSize="17sp"
+          android:id="@+id/parenttitle"/>
+   <ImageView
+       android:id="@+id/options"
+       android:layout_width="40dp"
+       android:layout_alignParentRight="true"
+       android:src="@drawable/ic_baseline_more_horiz_24"
+       android:layout_height="40dp"/>
+   </RelativeLayout>
+   <FrameLayout
+       android:layout_margin="10dp"
+       android:layout_below="@id/rel"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+      <ListView
+          android:verticalSpacing="20dp"
+          android:scrollbars="none"
+          android:layout_width="match_parent"
+          android:numColumns="1"
+          android:id="@+id/grids"
+          android:layout_height="510dp"/>
+   </FrameLayout>
+</RelativeLayout>
